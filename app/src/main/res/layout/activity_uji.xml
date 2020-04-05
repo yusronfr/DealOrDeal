@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".UjiActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/corona" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Edukasi COVID19"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:text="By yusronfr"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginBottom="100dp"
+        android:text="Tentang Covid19"
+        android:textSize="10sp" />
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginBottom="100dp"
+        android:text="Cara Pencegahan"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginBottom="100dp"
+        android:text="Daftar Rumah Sakit di Indonesia"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btn_imageButton1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginBottom="100dp"
+        android:background="#4CAF50"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/user" />
+
+    <ImageButton
+        android:id="@+id/btn_imageButton2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="400dp"
+        android:background="#2196F3"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/mail" />
+
+    <ImageButton
+        android:id="@+id/btn_imageButton3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="400dp"
+        android:background="#F44336"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/pin" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="520dp"
+        android:text="@string/copyright_2020"
+        android:textAlignment="center"
+        android:textColor="#9C999A"
+        android:textSize="15sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:orientation="vertical">
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/c5"
+                    android:contentDescription="TODO" />
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/c6"
+                    android:contentDescription="TODO" />
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/c1"
+                    android:contentDescription="TODO"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/c2"
+                    android:contentDescription="TODO" />
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/c3"
+                    android:contentDescription="TODO" />
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/c4"
+                    android:contentDescription="TODO"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</RelativeLayout>
